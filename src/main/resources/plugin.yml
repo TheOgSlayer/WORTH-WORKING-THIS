@@ -1,0 +1,20 @@
+name: WorthLore
+main: com.worthlore.WorthLore
+version: '${project.version}'
+api-version: '1.21'
+depend: [ProtocolLib]
+author: You
+description: Shows item worth in the lore on hover and provides a /worth GUI.
+
+commands:
+  worth:
+    description: Open the worth GUI
+    usage: /worth [reload]
+
+permissions:
+  worth.use:
+    description: Use /worth
+    default: true
+  worth.reload:
+    description: Reload prices.yml and config.yml
+    default: op

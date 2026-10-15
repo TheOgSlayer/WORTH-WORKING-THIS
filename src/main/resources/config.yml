@@ -1,0 +1,24 @@
+# Lore line shown under item names.
+# Placeholders: %worth% = worth of ONE item, %total% = worth of the whole stack
+# Use & for colour codes.
+lore-format: "&7Worth: &a$%worth%"
+
+# Show the stack total as well when the stack has more than 1 item
+stack-lore-format: "&7Worth: &a$%worth% &8(&7x%amount% = &a$%total%&8)"
+
+gui:
+  title: "&8Item Worth &7(Page %page%/%pages%)"
+  previous-page: "&a<< Previous Page"
+  next-page: "&aNext Page >>"
+  page-item: "&ePage %page%/%pages%"
+  sort-alphabetical: "&eSort: Alphabetical (A-Z)"
+  sort-low-high: "&eSort: Lowest to Highest"
+  sort-high-low: "&eSort: Highest to Lowest"
+  sort-selected: "&aCurrently selected"
+  sort-click: "&7Click to sort this way"
+
+messages:
+  no-permission: "&cYou don't have permission to do that."
+  players-only: "&cOnly players can open the worth GUI."
+  reloaded: "&aWorthLore reloaded! Loaded &e%count% &aprices."
+  no-prices: "&cNo prices have been added to prices.yml yet."

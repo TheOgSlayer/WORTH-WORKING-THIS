@@ -1,0 +1,10 @@
+# Format:  MATERIAL_NAME: worth
+# Material names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# After editing, run /worth reload (or restart the server).
+
+COBBLESTONE_SLAB: 20
+COBBLESTONE: 10
+DIAMOND: 500
+EMERALD: 300
+GOLD_INGOT: 100
+IRON_INGOT: 50
